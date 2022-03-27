@@ -7,6 +7,7 @@
     --black: #212429;
     --pink: #F784AD;
     --purple: #7048E8;
+    --purple-2: #5028C6;
     --blue: #4263EB;
     --blue-2: #2342C0;
     --red: #F03D3E;
@@ -24,36 +25,4 @@
 
 * {
     font-family: 'Roboto', sans-serif;
-}
-
-.button {
-    display: inline-block;
-    border-radius: 8px;
-    height: 48px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-.button_primary {
-    background-color: var(--blue);
-    border: none;
-    color: var(--white);
-    cursor: auto;
-}
-
-.button_primary:hover {
-    background-color: var(--blue-2);
-    border: none;
-    color: var(--white);
-    cursor: pointer;
-}
-
-.button_primary:disabled {
-    background-color: var(--blue-2);
-    border: none;
-    color: var(--white);
-    cursor: not-allowed;
-    
 }
