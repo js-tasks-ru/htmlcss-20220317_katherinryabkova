@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<!-- Страница с аккордеоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./accordion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">Цитата номер раз.</summary>
+                <p class="accordion__text">— А чем питаются эти драконы? Вор пожал плечами.<br>— Лично мне припоминаются истории о прикованных к скалам девственницах, — высказался он.<br>— Тогда у нас эти драконы подохнут с голоду, — хмыкнул убийца. — Тут скал отродясь не бывало. Равнина.<br><br>"Стража! Стража! "</p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">Цитата номер два.</summary>
+                <p class="accordion__text">Умением выживать в любых условиях настоящие коты владеют виртуозно. Назовите еще хоть одно животное, которое кормят не за то, что оно приносит пользу, охраняет дом или звонко щебечет, а потому, что наевшись, оно ходит довольное-предовольное. И урчит.<br><br>"Кот без прикрас"</p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">Цитата номер три.</summary>
+                <p class="accordion__text">Если ты веришь в себя...И в свои мечты... И следуешь своей путеводной звезде...Ты все равно проиграешь тем, кто до седьмого пота учился и не надеялся на авось.<br><br>"Маленький свободный народец"</p>
+            </details>
+        </div>
     </body>
 </html>
