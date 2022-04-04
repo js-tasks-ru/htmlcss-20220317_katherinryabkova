@@ -23,7 +23,3 @@
     --primary: var(--blue);
     --secondary: var(--purple);
 }
-
-* {
-    font-family: 'Roboto', sans-serif;
-}
