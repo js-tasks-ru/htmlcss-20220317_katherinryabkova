@@ -1,5 +1,4 @@
 .histogram {
-    display: block;
     width: 100%;
     padding: 16px 24px 24px;
     border: 1px solid var(--grey-3);
@@ -12,7 +11,6 @@
     font-size: 16px;
     line-height: 24px;
     background-color: var(--white);
-
 }
 
 .histogram__head {
@@ -35,7 +33,14 @@
 .histogram__details {
     text-align: right;
     color: var(--blue);
-    margin: 0;
+}
+
+.histogram__details:link {
+    text-decoration: none;
+}
+
+.histogram__details:link {
+    text-decoration: none;
 }
 
 .histogram__bars {
